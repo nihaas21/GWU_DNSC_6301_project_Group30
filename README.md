@@ -2,11 +2,11 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: Patrick Hall, `jphall@gwu.edu`
-* **Model date**: August, 2021
+* **Person or organization developing model**: Nihaa Sajid, `nihaasajid@gwu.edu` Guoyue Zhou, `guoyuezhou@gwu.edu` Salaah Khan `salaah.khan@gwu.edu` Hao Ren ``
+* **Model date**: August, 2022
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: [DNSC_6301_Example_Project.ipynb](DNSC_6301_Example_Project.ipynb)
+* **Model implementation code**: [DNSC_6301_Project_Group30.ipynb](DNSC_6301_Project_Group30.ipynb
 
 ### Intended Use
 * **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
@@ -63,6 +63,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 ### Quantitative Analysis
 
 #### Correlation Heatmap
-![Correlation Heatmap](download.png)
+![correlation heatmap](https://user-images.githubusercontent.com/112105334/186714031-bb78a137-74dc-4c59-bfc3-de7f81d8212e.png)
+
 
 
