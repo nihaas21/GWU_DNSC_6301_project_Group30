@@ -5,7 +5,7 @@
 * **Person or organization developing model**: Nihaa Sajid, `nihaasajid@gwu.edu` Guoyue Zhou, `guoyuezhou@gwu.edu` Salaah Khan `salaah.khan@gwu.edu` Hao Ren `hao.ren@gwu.edu`
 * **Model date**: August, 2022
 * **Model version**: 1.0
-* **License**: MIT
+* **License**: GWU
 * **Model implementation code**: [DNSC_6301_Project_Group_30.ipynb](DNSC_6301_Project_Group_30.ipynb)
 
 ### Intended Use
