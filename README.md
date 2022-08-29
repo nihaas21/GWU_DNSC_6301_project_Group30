@@ -98,3 +98,19 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 | ------- | ------------ | --------- | --------- |
 |**White**| 0.83 | 0.85 | 1.00 |
 
+
+
+#### Accuracy cutoff map
+![Accuracy map](https://user-images.githubusercontent.com/112105334/187100785-18bb8602-1789-41c9-997b-9ec9c7672262.png)
+
+
+
+
+
+
+
+* Calculated accuracy at various cut off levels
+* Positive correlation between accuracy and cut off levels
+* Higher cut off allows lending more money, even if accurate
+* Kept cut off at 0.18 to satisfy the AIR of above 0.80 for all groups
+
