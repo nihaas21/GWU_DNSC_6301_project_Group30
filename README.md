@@ -71,7 +71,9 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 
 
-Heatmap is a graphical way to visualize visitor behavior data in the form of hot and cold spots employing a warm-to-cool color scheme. 
+* Heatmap is a graphical way to visualize visitor behavior data in the form of hot and cold spots employing a warm-to-cool color scheme
+* Strongest postive correlation PAY_0<>DELINQ_NEXT
+* Strongest negative correlation RACE<>DELINQ_NEXT (financial data is widely corrupted with racial bias)
 
 
 **Metrics used to evaluate your final model**
