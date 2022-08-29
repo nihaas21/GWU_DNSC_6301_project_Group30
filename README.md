@@ -67,3 +67,32 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 
 
+
+
+
+
+Heatmap is a graphical way to visualize visitor behavior data in the form of hot and cold spots employing a warm-to-cool color scheme. 
+
+
+**Metrics used to evaluate your final model**
+* Area under the curve (AUC)
+* Adverse Impact Ratio/Disparate Impact (AIR)
+
+**Final Results**
+
+* Calculated at depth = 6
+
+| Data set| AUC|
+| ------- |---|
+|**Training**| 0.783722 |
+|**Validation**| 0.749610 |
+|**Test**| 0.7438 |
+
+
+* Race variable has the greatest negative correlation with delinquency
+* Calculated Adverse Impact Ratio with a cutoff of 0.18
+
+| **AIR** | **Hispanic** | **Black** | **Asian** |
+| ------- | ------------ | --------- | --------- |
+|**White**| 0.83 | 0.85 | 1.00 |
+
