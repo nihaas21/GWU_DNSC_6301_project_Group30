@@ -114,3 +114,58 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 * Higher cut off allows lending more money, even if accurate
 * Kept cut off at 0.18 to satisfy the AIR of above 0.80 for all groups
 
+
+#### Iteration Plot
+![Iteration Plot](https://user-images.githubusercontent.com/112105334/187101447-8490063a-6af5-4ca2-baa2-ce60e524390b.png)
+
+
+
+
+
+
+* Three metrics to note: AUC, AIR and depth
+* AIR >= 0.85, max AUC, max depth
+* Tree Depth = 6 is the point where we satisfy all conditions
+
+
+
+
+
+### Ethical Considerations
+
+The model heavily depends on an individual's payment history, particularly the last payment. The volatility makes it difficult to remove bias, especially since the financial data is largely influenced by racial bias.
+
+**Potential Negative Impacts**
+* **Math or software problems:** 
+* Google Collaborate has a protection and privacy section, however clients with consent to alter the document can utilize it
+* Potential information amalgamation can lead to concerns regarding legitimacy and optimacy
+* Plausibility of information focuses on either being missing, misjudged, or deliberately changed.
+
+
+* **Real world risks:**
+* While the data used dates back to September, being a financial data set, it includes significant amount of racial bias
+* Impacts people of color
+
+
+**Potential Uncertainties**
+* **Math or software problems:** 
+* Uncertainty around data protection of the individual's - variables include marital status, education and other financial aspects 
+* No guardrails to prevent data manipulation
+* Cut off criteria does not have a deviation set around it for those who fall close to it
+* Tradeoff between variables for adequate decision making - no weighted criteria for the importance of certain results
+
+
+* **Real world risks:**
+* Final decision is heavily reliant on historic financial information
+* Lack of human involvement to make a holistic decision
+* Further impacting financial disparity among different races
+
+
+**Unexpected Results:**
+* Variable importance shows immediate last payment to have the most influence on the decision
+* At a certain cut off, Asian population had the same probability of a positive outcome as that of White population
+
+
+
+
+
